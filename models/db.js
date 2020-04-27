@@ -11,3 +11,5 @@ mongoose.connect(
     }
   }
 );
+
+require("./employee.model");
