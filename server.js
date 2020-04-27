@@ -18,8 +18,8 @@ app.engine(
   })
 );
 
-app.listen(3000, () => {
-  console.log("Express server started at port : 3000");
+app.listen(5300, () => {
+  console.log("Express server started at port : 5300");
 });
 
 app.use("/employee", employeeController);
